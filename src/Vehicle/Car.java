@@ -1,9 +1,9 @@
 package Vehicle;
 
 public class Car extends Vehicle{
-    public Car(){
-        this.speed = 1;
-        this.years = 2002;
-        this.price = 199;
+    public Car(int speed, int years, int price){
+        this.speed = speed;
+        this.years = years;
+        this.price = price;
     }
 }
